@@ -206,8 +206,11 @@ div.scrollmenu {
 
 /*VIDEOGRAPHY VIDEOGRAPHY VIDEOGRAPHY VIDEOGRAPHY VIDEOGRAPHY VIDEOGRAPHY VIDEOGRAPHY*/
 
-div.color-fade {
+div.videography-div {
   background: rgba(255, 232, 242, 0.2);
+  border-width: 20px 40px;
+  border-color: white;
+  border-style: solid;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -358,7 +361,9 @@ div.color-fade {
 
 div.photography-div {
   background: rgba(255, 232, 242, 0.2);
-  border: 40px white solid;
+  border-width: 20px 20px 50px 20px;
+  border-color: white;
+  border-style: solid;
   display: flex;
   flex-direction: row;
   align-items: center;
