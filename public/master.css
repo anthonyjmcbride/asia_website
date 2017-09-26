@@ -75,7 +75,8 @@ div.scrollmenu {
    /*CONTENT*/
   div.content {
     height: 500vh;
-    border: 1px red solid;
+    width: 100%;
+    /*border: 1px red solid;*/
   }
     .contact, .photography, .videography, .graphic-design {
       /*border: blue solid 1px;*/
@@ -93,6 +94,7 @@ div.scrollmenu {
     }
     div.about {
       /*border: 2px black solid;*/
+      background: rgba(255, 232, 242, 0.5);
       height: 100vh;
       display: flex;
       flex-direction: column;
@@ -104,20 +106,35 @@ div.scrollmenu {
       font-size: 32px;
       font-weight: 600;
       letter-spacing: .004em;
-      margin-bottom: 50px;
+      /*margin-bottom: 50px;*/
       padding: 35px;
     }
       span#about-title {
         font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
         font-size: 80px;
+        color: rgba(51, 51, 51, 1);
+        /* PINK ALTERNATE COLOR color: rgba(224, 125, 168, 1);*/
+        letter-spacing: -.015em;
+        line-height: 1.05;
+      }
+      span#about-subtitle {
+        font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+        font-size: 30px;
+        color: rgba(51, 51, 51, 1);
+        /* PINK ALTERNATE COLOR color: rgba(224, 125, 168, 1);*/
+        letter-spacing: .006em;
+        font-weight: 600;
       }
       span#about-body {
         padding-top: 30px;
+        color: rgba(51, 51, 51, 1);
+        /* PINK ALTERNATE COLOR color: rgba(224, 125, 168, 1);*/
       }
-      div.color-fade {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+  div.color-fade {
+    background: rgba(255, 232, 242, 0.2);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
         /*padding: 20px;*/
         /*background: -webkit-linear-gradient(left, rgba(255,0,0,0), rgba(255,0,0,0), rgba(255, 181, 218,1));*/
         /*border: 3px purple solid;*/
@@ -126,60 +143,61 @@ div.scrollmenu {
         z-index: 2;
         top: -60px;
         right: 0px;*/
-        height: 70vh;
-      }
-        img#contact-image {
-          border-radius: 5px;
-          height: 100%;
-          width: 50%;
-        }
-      div.contact-text {
+    height: 70vh;
+  }
+    img#contact-image {
+      border-radius: 5px;
+      height: 100%;
+      width: 50%;
+      padding: 70px;
+    }
+    div.contact-text {
         /*border: 1px green solid;*/
-        width: 50%;
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      flex-direction: column;
+    }
+      span#contact-info-title {
+        font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+          /*border: 1px yellow solid;*/
+        color: #888;
+        font-size: 17px;
+        font-weight: 400;
+      }
+      div.contact-info-body {
         display: flex;
-        justify-content: center;
-        text-align: center;
         flex-direction: column;
       }
-        span#contact-info-title {
+        span#contact-info-number {
           font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-          /*border: 1px yellow solid;*/
-          color: #888;
-          font-size: 17px;
-          font-weight: 400;
+          color: rgb(51, 51, 51);
+          font-size: 35px;
+          font-weight: 500;
+          letter-spacing: .008em;
+            /*padding: 2px;*/
         }
-        div.contact-info-body {
+        span#contact-info-email {
+          font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+          color: rgb(51, 51, 51);
+          font-size: 30px;
+          font-weight: 500;
+          letter-spacing: .008em;
+            /*padding: 2px;*/
+        }
+        span#contact-info-social {
+          font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+          font-size: 18px;
+          font-weight: lighter;
           display: flex;
-          flex-direction: column;
+          justify-content: center;
+          padding: 20px 3px;
         }
-          span#contact-info-number {
-            font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-            color: rgb(51, 51, 51);
-            font-size: 35px;
-            font-weight: 500;
-            letter-spacing: .008em;
-            /*padding: 2px;*/
+          a#instagram, a#youtube {
+            padding-right: 15px;
+            color: rgba(255, 153, 204, 1);
           }
-          span#contact-info-email {
-            font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-            color: rgb(51, 51, 51);
-            font-size: 30px;
-            font-weight: 500;
-            letter-spacing: .008em;
-            /*padding: 2px;*/
-          }
-          span#contact-info-social {
-            font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-            font-size: 18px;
-            font-weight: lighter;
-            display: flex;
-            justify-content: center;
-            padding: 20px 3px;
-          }
-            a#instagram, a#youtube {
-              padding-right: 15px;
-              color: rgba(255, 153, 204, 1);
+            span#contact-info-social > a:hover {
+              color: rgba(255, 153, 204, 0.8);
             }
-              span#contact-info-social > a:hover {
-                color: rgba(255, 153, 204, 0.8);
-              }
