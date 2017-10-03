@@ -32,7 +32,7 @@ div.scrollmenu {
       /*display: inline-block;*/
       display: flex;
       align-items: center;
-      font-size: 27px;
+      font-size: 18px;
       color: black;
       text-align: center;
       padding: 15px;
@@ -47,6 +47,9 @@ div.scrollmenu {
 
 div.content {
   height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 
 
