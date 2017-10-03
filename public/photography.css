@@ -48,7 +48,7 @@ body {
       }
 
 div.photography-content {
-  border: 1px black solid;
+  /*border: 1px black solid;*/
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -60,7 +60,7 @@ div.photography-content {
 
   div.image-div {
     display: flex;
-    /*justify-content: center;*/
+    justify-content: center;
     align-items: center;
     border: 1px purple solid;
     width: 75%;
