@@ -62,7 +62,8 @@ div.photography-content {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px purple solid;
+    /*border: 1px purple solid;*/
+    background-color: #f5f5f5;
     width: 75%;
     height: 100vh;
     /*padding: 50px;*/
