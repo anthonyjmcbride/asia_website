@@ -18,30 +18,31 @@ body {
   font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
   /*NAV BAR*/
-div.scrollmenu {
-  height: 7vh;
-  display: flex;
-  justify-content: center;
-  background-color: none;
-  overflow: auto;
-  white-space: nowrap;
-  border-radius: 10px;
-}
-  div.scrollmenu a {
-      border-radius: 10px;
-      /*display: inline-block;*/
-      display: flex;
-      align-items: center;
-      font-size: 27px;
-      color: black;
-      text-align: center;
-      padding: 15px;
-      text-decoration: none;
-
+  div.scrollmenu {
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    background-color: none;
+    overflow: auto;
+    white-space: nowrap;
+    border-radius: 10px;
   }
-    div.scrollmenu a:hover {
-        background-color: #f5f5f5;
+    div.scrollmenu a {
+        border-radius: 10px;
+        /*display: inline-block;*/
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+        color: rgba(51, 51, 51, 0.8);
+        text-align: center;
+        padding: 15px;
+        text-decoration: none;
+
     }
+      div.scrollmenu a:hover {
+          /*background-color: #f5f5f5;*/
+          color: black;
+      }
 
 
 div.about-header-image {
@@ -92,8 +93,8 @@ div.about {
   }
   span#about-subtitle {
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-    font-size: 30px;
-    color: rgba(51, 51, 51, 1);
+    font-size: 27px;
+    color: rgba(51, 51, 51, 0.1);
     /* PINK ALTERNATE COLOR color: rgba(224, 125, 168, 1);*/
     letter-spacing: .006em;
     font-weight: 600;
