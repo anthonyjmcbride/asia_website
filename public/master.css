@@ -136,7 +136,7 @@ div.scrollmenu {
 
             /*CONTACT*/
   div.color-fade {
-    background: linear-gradient(#fcfcfc, rgba(255, 232, 242, 0.5));
+    background: linear-gradient(#fcfcfc, #f5f5f5);
     display: flex;
     flex-direction: row;
     align-items: center;

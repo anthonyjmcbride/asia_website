@@ -26,6 +26,9 @@ div.scrollmenu {
   overflow: auto;
   white-space: nowrap;
   border-radius: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
   div.scrollmenu a {
       border-radius: 10px;
