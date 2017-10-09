@@ -107,7 +107,7 @@ div.scrollmenu {
       font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
       line-height: 1.5;
       font-size: 32px;
-      font-weight: 500;
+      font-weight: 400;
       letter-spacing: .004em;
       /*margin-bottom: 50px;*/
       padding: 35px;
@@ -117,7 +117,7 @@ div.scrollmenu {
         font-size: 65px;
         color: rgba(51, 51, 51, 1);
         /* PINK ALTERNATE COLOR color: rgba(224, 125, 168, 1);*/
-        letter-spacing: -.018em;
+        letter-spacing: -.015em;
         line-height: 1.05;
       }
       span#about-subtitle {
@@ -227,7 +227,7 @@ div.videography-div {
     span#videography-title {
       font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
       color: rgb(51, 51, 51);
-      font-size: 42px;
+      font-size: 35px;
       font-weight: 500;
       letter-spacing: .008em;
       padding: 20px;
@@ -252,7 +252,7 @@ div.graphic-div {
     span#graphic-title {
       font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
       color: rgb(51, 51, 51);
-      font-size: 42px;
+      font-size: 35px;
       font-weight: 500;
       letter-spacing: .008em;
       padding: 20px;
@@ -277,7 +277,7 @@ div.photography-div {
     span#photography-title {
       font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
       color: rgb(51, 51, 51);
-      font-size: 42px;
+      font-size: 35px;
       font-weight: 500;
       letter-spacing: .008em;
       padding: 20px;
