@@ -2,6 +2,7 @@
 * {
   box-sizing: border-box;
 }
+
 li {
   list-style-type: none;
   /*Gets rid of bullet points on lists*/
@@ -97,7 +98,7 @@ div.scrollmenu {
     /* ABOUT SECTION */
     div.about {
       /*border: 2px black solid;*/
-      background: linear-gradient(white, rgba(51, 51, 51, 0.1), #fcfcfc);
+      background: linear-gradient(white, rgba(51, 51, 51, 0.1), #f9f9f9);
       height: 70vh;
       display: flex;
       flex-direction: column;
@@ -136,7 +137,7 @@ div.scrollmenu {
 
             /*CONTACT*/
   div.color-fade {
-    background: linear-gradient(#fcfcfc, #f5f5f5);
+    background: linear-gradient(#f9f9f9, #f5f5f5);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -149,6 +150,8 @@ div.scrollmenu {
         top: -60px;
         right: 0px;*/
     height: 100vh;
+    border-top: 10px white solid;
+    /*border-radius: 10px;*/
   }
     img#contact-image {
       border-radius: 5px;
@@ -207,81 +210,105 @@ div.scrollmenu {
               color: rgba(255, 153, 204, 0.8);
             }
 
-/*VIDEOGRAPHY VIDEOGRAPHY VIDEOGRAPHY VIDEOGRAPHY VIDEOGRAPHY VIDEOGRAPHY VIDEOGRAPHY*/
-
-
-div.videography-div {
-  background: #fcfcfc;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-  img#videography-image {
-    border-radius: 5px;
-    height: 55%;
-    width: 55%;
-    /*padding: 70px;*/
-  }
-    span#videography-title {
-      font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-      color: rgb(51, 51, 51);
-      font-size: 35px;
-      font-weight: 500;
-      letter-spacing: .008em;
-      padding: 20px;
-    }
-
-/*GRAPHIC DESIGN GRAPHIC DESIGN GRAPHIC DESIGN GRAPHIC DESIGN GRAPHIC DESIGN GRAPHIC DESIGN GRAPHIC DESIGN */
-
-div.graphic-div {
-  background: #fcfcfc;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-  img#graphic-image {
-    border-radius: 5px;
-    height: 55%;
-    width: 55%;
-    /*padding: 70px;*/
-  }
-    span#graphic-title {
-      font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-      color: rgb(51, 51, 51);
-      font-size: 35px;
-      font-weight: 500;
-      letter-spacing: .008em;
-      padding: 20px;
-    }
 
 /* PHOTOGRAPHY PHOTOGRAPHY PHOTOGRAPHY PHOTOGRAPHY PHOTOGRAPHY PHOTOGRAPHY PHOTOGRAPHY PHOTOGRAPHY PHOTOGRAPHY */
 
 div.photography-div {
-  background: #fcfcfc;
-  height: 150vh;
+  background: #f9f9f9;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-top: 10px white solid;
+  /*border-radius: 10px;*/
 }
-  img#photography-image {
-    border-radius: 5px;
-    height: 75%;
-    width: 50%;
-    /*padding: 70px;*/
+  div.photography-display-images {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
   }
-    span#photography-title {
-      font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-      color: rgb(51, 51, 51);
-      font-size: 35px;
-      font-weight: 500;
-      letter-spacing: .008em;
-      padding: 20px;
+    img#photography-image {
+      border-radius: 5px;
+      height: 70%;
+      width: 30%;
+      /*padding: 70px;*/
     }
+      span#photography-title {
+        font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+        color: rgb(51, 51, 51);
+        font-size: 35px;
+        font-weight: 500;
+        letter-spacing: .008em;
+        padding: 15px;
+      }
+
+div.videography-graphic-container {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  justify-content: space-around;
+}
+  /*GRAPHIC DESIGN GRAPHIC DESIGN GRAPHIC DESIGN GRAPHIC DESIGN GRAPHIC DESIGN GRAPHIC DESIGN GRAPHIC DESIGN */
+
+  div.graphic-div {
+    background: #f9f9f9;
+    width: 50%;
+    height: 90%;
+    border-right: 5px white solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 10px white solid;
+    /*border-radius: 10px;*/
+  }
+    img#graphic-image {
+      border-radius: 5px;
+      height: 75%;
+      width: 95%;
+      /*padding: 70px;*/
+    }
+      span#graphic-title {
+        font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+        color: rgb(51, 51, 51);
+        font-size: 35px;
+        font-weight: 500;
+        letter-spacing: .008em;
+        padding: 15px;
+      }
+
+  /*VIDEOGRAPHY VIDEOGRAPHY VIDEOGRAPHY VIDEOGRAPHY VIDEOGRAPHY VIDEOGRAPHY VIDEOGRAPHY*/
+
+      div.videography-div {
+        background: #f9f9f9;
+        width: 50%;
+        height: 90%;
+        border-left: 5px white solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-top: 10px white solid;
+        /*border-radius: 10px;*/
+      }
+        img#videography-image {
+          border-radius: 5px;
+          height: 75%;
+          width: 95%;
+          /*padding: 70px;*/
+        }
+          span#videography-title {
+            font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+            color: rgb(51, 51, 51);
+            font-size: 35px;
+            font-weight: 500;
+            letter-spacing: .008em;
+            padding: 15px;
+          }
+
 
 /* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
 
