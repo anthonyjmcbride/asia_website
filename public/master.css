@@ -76,7 +76,7 @@ div.scrollmenu {
 
    /*CONTENT*/
   div.content {
-    height: 525vh;
+    height: 430vh;
     width: 100%;
     /*border: 1px red solid;*/
   }
@@ -98,8 +98,8 @@ div.scrollmenu {
     /* ABOUT SECTION */
     div.about {
       /*border: 2px black solid;*/
-      background: linear-gradient(white, rgba(51, 51, 51, 0.1), #f9f9f9);
-      height: 70vh;
+      /*background: linear-gradient(white, rgba(51, 51, 51, 0.3), #f9f9f9);*/
+      height: 100vh;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -141,23 +141,15 @@ div.scrollmenu {
     display: flex;
     flex-direction: row;
     align-items: center;
-        /*padding: 20px;*/
-        /*background: -webkit-linear-gradient(left, rgba(255,0,0,0), rgba(255,0,0,0), rgba(255, 181, 218,1));*/
-        /*border: 3px purple solid;*/
-        /*border: 1px solid #0f0;*/
-        /*position: relative;
-        z-index: 2;
-        top: -60px;
-        right: 0px;*/
-    height: 100vh;
-    border-top: 10px white solid;
-    /*border-radius: 10px;*/
+    height: 75vh;
+    margin: 10px 20px 0px 20px;
+    border-radius: 10px;
   }
     img#contact-image {
       border-radius: 5px;
-      height: 75%;
-      width: 50%;
-      padding: 70px;
+      height: 82%;
+      width: 45%;
+      margin-left: 40px;
     }
     div.contact-text {
         /*border: 1px green solid;*/
@@ -220,7 +212,10 @@ div.photography-div {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-top: 10px white solid;
+  margin: 10px 20px;
+  /*border-color: white;
+  border-style: solid;*/
+  border-radius: 10px;
   /*border-radius: 10px;*/
 }
   div.photography-display-images {
@@ -265,21 +260,22 @@ div.videography-graphic-container {
 
   div.graphic-div {
     background: #f9f9f9;
-    width: 50%;
-    height: 90%;
-    border-right: 5px white solid;
+    width: 97%;
+    height: 75vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    border-top: 10px white solid;
-    /*border-radius: 10px;*/
+    margin: 10px 20px 10px 20px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
   }
     img#graphic-image {
       border-radius: 5px;
-      height: 60%;
-      width: 85%;
-      /*padding: 70px;*/
+      height: 70%;
+      width: 58%;
+      margin-bottom: 50px;
     }
       span#graphic-title {
         font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
@@ -299,21 +295,22 @@ div.videography-graphic-container {
 
       div.videography-div {
         background: #f9f9f9;
-        width: 50%;
-        height: 90%;
-        border-left: 5px white solid;
+        width: 97%;
+        height: 75vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        justify-content: space-between;
         align-items: center;
-        border-top: 10px white solid;
-        /*border-radius: 10px;*/
+        margin: 10px 20px 10px 20px;
+        padding: 20px 20px 20px 20px;
+        border-radius: 10px;
       }
         img#videography-image {
           border-radius: 5px;
-          height: 60%;
-          width: 85%;
-          /*padding: 70px;*/
+          height: 70%;
+          width: 58%;
+          margin-bottom: 50px;
         }
           span#videography-title {
             font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
@@ -334,7 +331,7 @@ div.videography-graphic-container {
 /* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
 
 footer {
-  background: #f5f5f5;
+  background: white;
   display: flex;
   justify-content: center;
   align-items: center;
