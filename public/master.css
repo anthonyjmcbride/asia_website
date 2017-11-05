@@ -345,6 +345,10 @@ div.videography-graphic-container {
           }
 
 
+          div.bottom-line {
+            border: 0.5px rgba(51,51,51,0.1) solid;
+            width: 75%;
+          }
 /* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
 
 footer {
