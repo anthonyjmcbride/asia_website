@@ -71,7 +71,7 @@ div.rates-container {
       padding-top: 10px;
     }
     span#conditions {
-      font-size: 10px;
+      font-size: 13px;
       font-weight: 100;
       font-style: italic;
       color: orange;
@@ -174,14 +174,14 @@ div.rates-container {
           span#contact-info-email {
             font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
             color: rgb(51, 51, 51);
-            font-size: 30px;
+            font-size: 40px;
             font-weight: 500;
             letter-spacing: .008em;
               /*padding: 2px;*/
           }
           span#contact-info-social {
             font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-            font-size: 18px;
+            font-size: 23px;
             font-weight: lighter;
             display: flex;
             justify-content: center;

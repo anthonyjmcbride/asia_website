@@ -9,6 +9,7 @@ li {
 }
 a {
   text-decoration: none;
+  color: rgba(255, 153, 204, 1);
   /*gets rid of the underline under links*/
 }
 a:hover {
@@ -215,7 +216,7 @@ div.photography-div {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 10px 0px 0px 0px;
+  margin: 10px 0px 10px 0px;
 }
   div.photography-display-images {
     width: 98%;
@@ -225,7 +226,7 @@ div.photography-div {
     flex-direction: row;
     border: #f9f9f9 1px solid;
     /*border-radius: 10px;*/
-    padding: 10px 2px;
+    padding: 20px 2px;
     background: #f9f9f9;
   }
     img#photography-image {
@@ -270,14 +271,14 @@ div.videography-graphic-container {
     justify-content: center;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 5px 10px 10px;
+    margin: 0px 5px 13px 10px;
     padding: 0px 20px 0px 20px;
     /*border-radius: 10px;*/
   }
     img#graphic-image {
       border-radius: 5px;
       height: 65%;
-      width: 100%;
+      width: 80%;
       margin-bottom: 20px;
     }
       div.graphic-text-div {
@@ -319,7 +320,7 @@ div.videography-graphic-container {
         justify-content: center;
         justify-content: space-between;
         align-items: center;
-        margin: 0px 10px 10px 5px;
+        margin: 0px 10px 10px 13px;
         padding: 0px 20px 0px 20px;
         /*border-radius: 10px;*/
       }
