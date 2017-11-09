@@ -99,7 +99,7 @@ div.about {
   span#about-subtitle {
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     font-size: 27px;
-    color: rgba(51, 51, 51, 0.1);
+    color: rgba(51, 51, 51, 0.2);
     /* PINK ALTERNATE COLOR color: rgba(224, 125, 168, 1);*/
     letter-spacing: .006em;
     font-weight: 600;
