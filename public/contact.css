@@ -129,7 +129,7 @@ div.rates-container {
 
 
     div.color-fade {
-      background: linear-gradient(white, #f9f9f9, #f5f5f5);
+      background: linear-gradient(white, #f9f9f9);
       display: flex;
       flex-direction: row;
       align-items: center;
