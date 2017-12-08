@@ -15,7 +15,7 @@ a:hover {
 }
 
 body {
-  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-family: 'DIN Condensed';
 }
   /*NAV BAR*/
   div.scrollmenu {
@@ -79,7 +79,6 @@ div.about {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
   line-height: 1.5;
   font-size: 35px;
   font-weight: 500;
@@ -89,7 +88,6 @@ div.about {
 }
 
   span#about-title {
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     font-size: 80px;
     color: rgba(51, 51, 51, 1);
     /* PINK ALTERNATE COLOR color: rgba(224, 125, 168, 1);*/
@@ -97,7 +95,6 @@ div.about {
     line-height: 1.05;
   }
   span#about-subtitle {
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     font-size: 27px;
     color: rgba(51, 51, 51, 0.2);
     /* PINK ALTERNATE COLOR color: rgba(224, 125, 168, 1);*/
@@ -129,7 +126,6 @@ div.about {
       width: 100%;
       height: 75%;
       font-size: 13px;
-      font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
       padding: 15px 10px;
       color: rgba(255, 153, 204, 0.5);
     }
@@ -137,7 +133,6 @@ div.about {
         color: rgba(255, 153, 204, 1);
       }
     div.footer-copyright {
-      font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
       font-size: 10px;
       color: #c9c9c9;
       padding-top: 30px;

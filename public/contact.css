@@ -15,7 +15,7 @@ a:hover {
 }
 
 body {
-  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-family: 'DIN Condensed';
 }
 /*NAV BAR*/
 div.scrollmenu {
@@ -94,6 +94,7 @@ div.rates-container {
       flex-direction: column;
       text-align: center;
       margin: 35px;
+      box-shadow: 0px 0px 20px #d1d1d1;
     }
       span#instudio-details {
         display: flex;
@@ -129,7 +130,6 @@ div.rates-container {
 
 
     div.color-fade {
-      background: linear-gradient(white, #f9f9f9);
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -153,7 +153,6 @@ div.rates-container {
         flex-direction: column;
       }
         span#contact-info-title {
-          font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
             /*border: 1px yellow solid;*/
           color: #888;
           font-size: 17px;
@@ -164,7 +163,6 @@ div.rates-container {
           flex-direction: column;
         }
           span#contact-info-number {
-            font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
             color: rgb(51, 51, 51);
             font-size: 35px;
             font-weight: 500;
@@ -172,7 +170,6 @@ div.rates-container {
               /*padding: 2px;*/
           }
           span#contact-info-email {
-            font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
             color: rgb(51, 51, 51);
             font-size: 40px;
             font-weight: 500;
@@ -180,7 +177,6 @@ div.rates-container {
               /*padding: 2px;*/
           }
           span#contact-info-social {
-            font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
             font-size: 23px;
             font-weight: lighter;
             display: flex;
@@ -212,7 +208,6 @@ div.rates-container {
         width: 100%;
         height: 75%;
         font-size: 13px;
-        font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
         padding: 15px 10px;
         color: rgba(255, 153, 204, 0.5);
       }
@@ -220,7 +215,6 @@ div.rates-container {
           color: rgba(255, 153, 204, 1);
         }
       div.footer-copyright {
-        font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
         font-size: 10px;
         color: #c9c9c9;
         padding-top: 30px;

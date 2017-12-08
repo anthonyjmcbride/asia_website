@@ -15,7 +15,7 @@ a:hover {
 }
 
 body {
-  font-family: 'DIN Condensed' !important;
+  font-family: 'DIN Condensed';
 }
 /*NAV BAR*/
 div.scrollmenu {
@@ -86,7 +86,6 @@ div.scrollmenu {
         flex-direction: column;
       }
         span#contact-info-title {
-          font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
             /*border: 1px yellow solid;*/
           color: #888;
           font-size: 17px;
@@ -98,7 +97,6 @@ div.scrollmenu {
             flex-direction: column;
           }
             span#contact-info-number {
-              font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
               color: rgb(51, 51, 51);
               font-size: 35px;
               font-weight: 500;
@@ -106,7 +104,6 @@ div.scrollmenu {
                 /*padding: 2px;*/
             }
             span#videography-info-description {
-              font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
               color: rgb(51, 51, 51);
               font-size: 26px;
               font-weight: 400;
@@ -114,7 +111,6 @@ div.scrollmenu {
                 padding-top: 2px;
             }
             span#contact-info-social {
-              font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
               font-size: 18px;
               font-weight: lighter;
               display: flex;
@@ -146,7 +142,6 @@ div.scrollmenu {
                     width: 100%;
                     height: 75%;
                     font-size: 13px;
-                    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
                     padding: 15px 10px;
                     color: rgba(255, 153, 204, 0.5);
                   }
@@ -154,7 +149,6 @@ div.scrollmenu {
                       color: rgba(255, 153, 204, 1);
                     }
                   div.footer-copyright {
-                    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
                     font-size: 10px;
                     color: #c9c9c9;
                     padding-top: 30px;
