@@ -19,17 +19,17 @@ body {
 }
 /*NAV BAR*/
 div.scrollmenu {
-  height: 7vh;
+  /*height: 7vh;*/
   display: flex;
   justify-content: center;
   background-color: none;
   overflow: auto;
   white-space: nowrap;
   border-radius: 10px;
-  position: fixed;
+  /*position: fixed;*/
   width: 100%;
-  top: 0;
-  margin-top: 10px;
+  /*top: 0;*/
+  margin-bottom: 10px;
 }
   div.scrollmenu a {
       border-radius: 10px;
@@ -48,30 +48,20 @@ div.scrollmenu {
         color: black;
     }
 
-
-  div.photography-content {
-    /*border: 1px black solid;*/
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 78vh;
-    /*width: auto;*/
-    margin-top: 60px;
-    padding: 20px 0px 0px 0px;
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+  .column img {
+    margin-top: 12px;
+    width: 100%;
   }
-
-    div.image-div {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      /*border: 1px purple solid;*/
-      /*background-color: #f5f5f5;*/
-      /*width: 50%;*/
-      height: 80%;
-      /*padding: 50px;*/
-    }
-
-
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
     footer {
       background: white;
