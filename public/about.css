@@ -89,22 +89,19 @@ div.about {
 
   span#about-title {
     font-size: 80px;
-    color: rgba(51, 51, 51, 1);
-    /* PINK ALTERNATE COLOR color: rgba(224, 125, 168, 1);*/
+    color: rgba(51, 51, 51, 0.9);
     letter-spacing: -.015em;
     line-height: 1.05;
   }
-  span#about-subtitle {
+  /*span#about-subtitle {
     font-size: 27px;
     color: rgba(51, 51, 51, 0.2);
-    /* PINK ALTERNATE COLOR color: rgba(224, 125, 168, 1);*/
     letter-spacing: .006em;
     font-weight: 600;
-  }
+  }*/
   span#about-body {
     padding-top: 30px;
     color: rgba(51, 51, 51, 1);
-    /* PINK ALTERNATE COLOR color: rgba(224, 125, 168, 1);*/
   }
 
 
