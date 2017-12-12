@@ -1,9 +1,10 @@
 $( document ).ready(function() {
 
-    console.log( "ready!" );
-    
-});
-
-// $(function(){
-//     alert("My First Jquery Test");
+// HideElement function
+// function hideElement(element) {
+//     $(element).hide().animate({ opacity: '0'});
+//   };
+// 
+// hideElement(".scrollmenu");
+//
 // });
